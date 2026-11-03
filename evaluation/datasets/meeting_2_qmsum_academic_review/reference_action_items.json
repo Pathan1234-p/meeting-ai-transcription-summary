@@ -1,0 +1,14 @@
+[
+  {
+    "id": 0,
+    "description": "Run the full training benchmark across eight H100 GPUs and monitor loss curves",
+    "owner": "Marcus",
+    "deadline": "Thursday"
+  },
+  {
+    "id": 1,
+    "description": "Document the gradient checkpointing memory trade-offs in the paper draft",
+    "owner": "Unassigned",
+    "deadline": null
+  }
+]

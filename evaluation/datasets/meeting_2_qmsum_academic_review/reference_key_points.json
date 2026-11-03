@@ -1,0 +1,8 @@
+[
+  "GPU cluster memory latency review",
+  "OOM issues with standard attention over 8k tokens",
+  "FlashAttention-2 provides 3.5x kernel speedup",
+  "Decision to standardize on FlashAttention-2",
+  "Marcus running 8x H100 benchmark by Thursday",
+  "Documentation of gradient checkpointing in draft"
+]

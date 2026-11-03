@@ -1,0 +1,14 @@
+[
+  {
+    "id": 0,
+    "description": "Configure the Kafka cluster with a replication factor of three",
+    "owner": "Maya",
+    "deadline": "Wednesday"
+  },
+  {
+    "id": 1,
+    "description": "Monitor consumer group rebalancing latency in Datadog",
+    "owner": "Unassigned",
+    "deadline": null
+  }
+]

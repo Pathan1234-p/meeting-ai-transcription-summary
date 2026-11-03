@@ -1,0 +1,20 @@
+[
+  {
+    "id": 0,
+    "description": "Rotate the production SSL certificates and update ingress controller",
+    "owner": "Priya",
+    "deadline": "tomorrow"
+  },
+  {
+    "id": 1,
+    "description": "Implement tokenized customer vaulting",
+    "owner": "Bob",
+    "deadline": "next Friday"
+  },
+  {
+    "id": 2,
+    "description": "Clean up the stale sandbox accounts",
+    "owner": "Unassigned",
+    "deadline": null
+  }
+]

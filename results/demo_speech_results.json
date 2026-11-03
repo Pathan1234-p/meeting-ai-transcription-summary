@@ -1,0 +1,212 @@
+{
+  "meeting_id": "demo_speech",
+  "audio_path": "C:\\Users\\anasp\\OneDrive\\Desktop\\NLP project\\tests\\demo_speech.wav",
+  "transcript": {
+    "full_text": "Hello Team. Welcome to our weekly project sink. We need to decide on the database architecture by Friday.",
+    "raw_text": "Hello Team. Welcome to our weekly project sink. Um, we need to decide on the database architecture by Friday.",
+    "segments": [
+      {
+        "segment_id": 0,
+        "speaker": "Speaker unknown",
+        "start": 0.0,
+        "end": 3.96,
+        "text": "Hello Team. Welcome to our weekly project sink.",
+        "raw_text": "Hello Team. Welcome to our weekly project sink.",
+        "words": [
+          {
+            "word": "Hello",
+            "start": 0.0,
+            "end": 0.46,
+            "probability": 0.883
+          },
+          {
+            "word": "Team.",
+            "start": 0.46,
+            "end": 0.94,
+            "probability": 0.522
+          },
+          {
+            "word": "Welcome",
+            "start": 1.88,
+            "end": 2.14,
+            "probability": 0.993
+          },
+          {
+            "word": "to",
+            "start": 2.14,
+            "end": 2.36,
+            "probability": 0.996
+          },
+          {
+            "word": "our",
+            "start": 2.36,
+            "end": 2.52,
+            "probability": 0.98
+          },
+          {
+            "word": "weekly",
+            "start": 2.52,
+            "end": 2.78,
+            "probability": 0.812
+          },
+          {
+            "word": "project",
+            "start": 2.78,
+            "end": 3.32,
+            "probability": 0.555
+          },
+          {
+            "word": "sink.",
+            "start": 3.32,
+            "end": 3.96,
+            "probability": 0.349
+          }
+        ]
+      },
+      {
+        "segment_id": 1,
+        "speaker": "Speaker unknown",
+        "start": 4.78,
+        "end": 8.32,
+        "text": "We need to decide on the database architecture by Friday.",
+        "raw_text": "Um, we need to decide on the database architecture by Friday.",
+        "words": [
+          {
+            "word": "Um,",
+            "start": 4.78,
+            "end": 4.96,
+            "probability": 0.608
+          },
+          {
+            "word": "we",
+            "start": 5.3,
+            "end": 5.56,
+            "probability": 0.945
+          },
+          {
+            "word": "need",
+            "start": 5.56,
+            "end": 5.8,
+            "probability": 0.997
+          },
+          {
+            "word": "to",
+            "start": 5.8,
+            "end": 5.92,
+            "probability": 0.999
+          },
+          {
+            "word": "decide",
+            "start": 5.92,
+            "end": 6.24,
+            "probability": 0.995
+          },
+          {
+            "word": "on",
+            "start": 6.24,
+            "end": 6.52,
+            "probability": 0.999
+          },
+          {
+            "word": "the",
+            "start": 6.52,
+            "end": 6.66,
+            "probability": 0.997
+          },
+          {
+            "word": "database",
+            "start": 6.66,
+            "end": 7.02,
+            "probability": 0.903
+          },
+          {
+            "word": "architecture",
+            "start": 7.02,
+            "end": 7.7,
+            "probability": 0.991
+          },
+          {
+            "word": "by",
+            "start": 7.7,
+            "end": 8.04,
+            "probability": 0.987
+          },
+          {
+            "word": "Friday.",
+            "start": 8.04,
+            "end": 8.32,
+            "probability": 0.996
+          }
+        ]
+      }
+    ],
+    "word_count": 18,
+    "duration_seconds": 9.2,
+    "speakers": [
+      "Speaker unknown"
+    ]
+  },
+  "summary": {
+    "extractive_summary": [
+      "Welcome to our weekly project sink.",
+      "We need to decide on the database architecture by Friday."
+    ],
+    "abstractive_summary": "Hello Team. Welcome to our weekly project sink. We need to decide on the database architecture by Friday.",
+    "abstractive_sentences": [
+      {
+        "sentence": "Hello Team.",
+        "faithfulness_score": 0.975,
+        "status": "Supported",
+        "supporting_premise": "Hello Team."
+      },
+      {
+        "sentence": "Welcome to our weekly project sink.",
+        "faithfulness_score": 0.971,
+        "status": "Supported",
+        "supporting_premise": "Hello Team. Welcome to our weekly project sink."
+      },
+      {
+        "sentence": "We need to decide on the database architecture by Friday.",
+        "faithfulness_score": 0.994,
+        "status": "Supported",
+        "supporting_premise": "Welcome to our weekly project sink. We need to decide on the database architecture by Friday."
+      }
+    ],
+    "executive_bullets": [
+      "Discussion: Hello Team. Welcome to our weekly project sink. We need to decide on the database architecture by Friday."
+    ],
+    "compression_ratio": 1.0,
+    "hallucination_rate": 0.0
+  },
+  "decisions": [],
+  "action_items": [
+    {
+      "action_id": 0,
+      "description": "Decide on the database architecture by Friday",
+      "owner": "Unassigned",
+      "deadline": "Friday",
+      "source_speaker": "Speaker unknown",
+      "timestamp": 4.78,
+      "supporting_quote": "We need to decide on the database architecture by Friday.",
+      "confidence": 0.85
+    }
+  ],
+  "metadata": {
+    "duration_seconds": 9.2,
+    "total_processing_seconds": 18.43,
+    "real_time_factor": 2.003,
+    "whisper_model_size": "tiny",
+    "device": "cpu",
+    "timings": {
+      "audio_preprocessing_sec": 0.02,
+      "asr_transcription_sec": 1.55,
+      "diarization_sec": 0.0,
+      "cleanup_sec": 0.0,
+      "extractive_summarization_sec": 2.39,
+      "abstractive_summarization_sec": 0.0,
+      "hallucination_guard_sec": 14.42,
+      "decision_extraction_sec": 0.02,
+      "action_extraction_sec": 0.02
+    }
+  }
+}

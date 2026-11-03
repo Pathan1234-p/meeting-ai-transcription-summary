@@ -1,0 +1,8 @@
+[
+  "Event ingestion broker evaluation: Kafka vs RabbitMQ",
+  "Peak volume exceeds 75k events/sec",
+  "Decision to adopt Apache Kafka with 32 partitions",
+  "Decision to set Redis cache TTL to 3600 seconds",
+  "Maya configuring Kafka cluster with replication factor 3 by Wednesday",
+  "Monitoring consumer rebalancing latency in Datadog"
+]

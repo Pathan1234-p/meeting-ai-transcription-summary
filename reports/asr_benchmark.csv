@@ -1,0 +1,4 @@
+Model Size,Mean WER (%),Mean CER (%),Total Audio (s),Total Time (s),Real-Time Factor (RTF),Speedup vs Real-time
+tiny,10.98,6.58,238.0,16.6,0.07,14.3x
+base,9.97,5.79,238.0,25.5,0.107,9.3x
+small,8.5,5.44,238.0,56.6,0.238,4.2x

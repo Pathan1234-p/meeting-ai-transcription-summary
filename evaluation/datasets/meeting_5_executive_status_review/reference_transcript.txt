@@ -1,0 +1,6 @@
+Rachel: Um, good afternoon everyone. Uh, let's review our quarterly cloud expenditure and hiring status.
+Kevin: Well, you know, our AWS infrastructure bill, like, surged by twenty-two percent last month.
+Rachel: That is concerning. We we decided to freeze all non-essential cloud compute instances immediately.
+Kevin: I agree with that. Um, Kevin will audit our idle RDS database instances by this Friday.
+Rachel: Excellent. I will present the updated budget forecast to the board next Tuesday.
+Kevin: We need to, like, review the engineering open requisitions as well.

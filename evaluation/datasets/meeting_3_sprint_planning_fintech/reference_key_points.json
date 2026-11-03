@@ -1,0 +1,8 @@
+[
+  "Sprint priority: PCI-DSS compliance",
+  "Legacy endpoints lack TLS 1.3 support",
+  "Decision to deprecate legacy endpoints and mandate TLS 1.3",
+  "Priya rotating SSL certificates by tomorrow",
+  "Bob implementing customer token vaulting by next Friday",
+  "Unassigned task to clean up sandbox accounts"
+]

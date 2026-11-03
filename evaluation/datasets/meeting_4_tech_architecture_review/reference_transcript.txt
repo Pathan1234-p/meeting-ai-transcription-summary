@@ -1,0 +1,8 @@
+Vikram: Hello Maya. Let's resolve the event ingestion architecture debate between Kafka and RabbitMQ.
+Maya: Our telemetry ingestion throughput exceeds seventy-five thousand events per second during peak hours.
+Vikram: RabbitMQ brokers encountered high CPU throttling under seventy thousand messages per second.
+Maya: Let's go with Apache Kafka with thirty-two partitions for horizontal scaling.
+Vikram: Agreed, the consensus is to adopt Apache Kafka for the core ingestion pipeline.
+Maya: I will configure the Kafka cluster with a replication factor of three by Wednesday.
+Vikram: We decided to set the Redis cache TTL to three thousand six hundred seconds.
+Vikram: Action item is to monitor consumer group rebalancing latency in Datadog.

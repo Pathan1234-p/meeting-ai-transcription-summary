@@ -1,0 +1,7 @@
+[
+  {
+    "id": 0,
+    "statement": "Standardize on FlashAttention-2 for all sequence lengths across models.",
+    "proposed_by": "Dr. Elena"
+  }
+]

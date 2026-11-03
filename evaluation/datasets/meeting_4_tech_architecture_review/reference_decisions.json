@@ -1,0 +1,12 @@
+[
+  {
+    "id": 0,
+    "statement": "Adopt Apache Kafka with 32 partitions for horizontal scaling in core ingestion.",
+    "proposed_by": "Maya"
+  },
+  {
+    "id": 1,
+    "statement": "Set the Redis cache TTL to 3,600 seconds.",
+    "proposed_by": "Vikram"
+  }
+]
