@@ -115,8 +115,8 @@ meeting-ai/
 
 ### 1. Clone & Set Up Environment
 ```bash
-git clone https://github.com/your-username/meeting-ai.git
-cd meeting-ai
+git clone https://github.com/Pathan1234-p/meeting-ai-transcription-summary.git
+cd meeting-ai-transcription-summary
 
 # Create virtual environment
 python -m venv venv
